@@ -1,0 +1,168 @@
+body {
+	margin: 0;
+	padding: 0;
+
+	font-family: "Lato", "Arial", sans-serif;
+	font-size: 16px;
+}
+
+/*.site-wrapper {
+	max-width: 1600px;
+	margin: auto;
+}*/
+
+.main-menu {
+	min-height: 50em;
+
+	background-image: url("../img/menu bg.jpg");
+	background-repeat: no-repeat;
+	background-position: 50%;
+	background-size: cover;
+}
+
+.menu {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	max-width: 1600px;
+	margin: auto;
+	padding: 65px 0;
+	list-style: none;
+
+	font-size: 13px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.menu a {
+    color: #4d4959;
+    text-decoration: none;
+}
+
+.menu li:not(:first-child) {
+	margin-left: 60px;
+}
+
+.menu li:nth-child(even):not(:last-child) {
+	margin-right: 120px;
+}
+
+.menu li:nth-child(odd):not(:first-child) {
+	margin-left: 120px;
+}
+
+.menu::before {
+	content: "";
+	position: absolute;
+	top: 25px;
+	width: 95px;
+	height: 95px;
+
+	background-image: url("../img/logo.png");
+	background-repeat: no-repeat;
+}
+
+.about-us {
+	padding: 8% 22% 6% 26%;
+	text-align: center;
+	background-color: rgb(247, 247, 247);
+}
+
+.title {
+	margin: 0 0 30px 0;
+
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 3.6px;
+	color: #353738;
+	text-transform: uppercase;
+}
+
+.desc {
+	margin: 0;
+
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: 400;
+	color: #848789;
+}
+
+.work {
+	max-width: 1600px;
+	margin: auto;
+}
+
+.work-row {
+	display: flex;
+	flex-direction: row;
+}
+
+.work-row .first-img {
+	max-width: 66%;
+}
+
+.work-row .scnd-img {
+	max-width: 33%;
+}
+
+.work-row .work-desc {
+	max-width: 34%;
+	text-align: center;
+}
+
+.work-desc .desc {
+	padding: 0px 69px 95px 69px;
+	background-color: #ffffff;
+}
+
+.work-desc .title {
+	padding-top: 120px;
+}
+
+.work-row-1 .work-desc {
+	background-image: url("../img/bike2.jpg");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 100%;
+}
+
+.work-row-2 .work-desc {
+	background-image: url("../img/bike3.jpg");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 100%;
+}
+
+.work-row-3 .work-desc {
+	background-image: url("../img/bike6.jpg");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 100%;
+}
+
+.twitter {
+	padding: 187px 260px 106px 300px;
+	text-align: center;
+	background-color: rgb(247, 247, 247);
+}
+
+.twitter h3 {
+	margin: 0 0 29px 0;
+	font-size: 18px;
+	letter-spacing: 1.8px;
+}
+
+.twitter p {
+	margin: 0;
+
+	font-size: 24px;
+	line-height: 34px;
+	color: #848789;
+}
+
+.twitter .toggle-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
