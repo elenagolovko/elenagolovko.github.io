@@ -11,6 +11,17 @@ body {
 	margin: auto;
 }*/
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .main-menu {
 	min-height: 50em;
 
@@ -55,7 +66,8 @@ body {
 .menu::before {
 	content: "";
 	position: absolute;
-	top: 25px;
+	top: 16%;
+    left: 47%;
 	width: 95px;
 	height: 95px;
 
@@ -142,7 +154,7 @@ body {
 }
 
 .twitter {
-	padding: 187px 260px 106px 300px;
+	padding: 10% 20% 5% 21%;
 	text-align: center;
 	background-color: rgb(247, 247, 247);
 }
@@ -162,7 +174,201 @@ body {
 }
 
 .twitter .toggle-list {
+	display: inline-flex;
 	margin: 0;
 	padding: 0;
 	list-style: none;
+}
+
+.twitter .toggle {
+	width: 10px;
+	height: 10px;
+	margin-right: 5px;
+	margin-top: 106px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 0px 1px rgb(169, 175, 179);
+}
+
+.twitter .toggle-current {
+	background-color: rgb(169, 175, 179);
+}
+
+.shop {
+	display: flex;
+	justify-content: center;
+}
+
+.shop .container {
+	display: flex;
+}
+
+.shop-col1 {
+	display: grid;
+	grid-template-rows: repeat(2, 50%);
+	grid-template-columns: 100%;
+}
+
+.shop-col2 {
+	display: grid;
+	grid-template-rows: 100%;
+	grid-template-columns: repeat(2, 50%);
+}
+
+.shop-col3 {
+	display: grid;
+	grid-template-rows: repeat(2, 50%);
+	grid-template-columns: 100%;
+}
+
+.link-block {
+	width: 100%;
+	text-align: center;
+	padding: 71px 0;
+	background-color: rgb(40, 47, 53);
+}
+
+.shop-link {
+	display: inline-block;
+	padding: 15px 55px;
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 24px;
+	line-height: 34px;
+	box-shadow: 0px 0px 0px 1px rgb(148, 151, 154);
+}
+
+.mailing {
+	position: relative;
+	max-width: 33%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.motto {
+	display: inline-block;
+	margin: 230px 0 33px 0;
+
+	font-size: 24px;
+	line-height: 34px;
+	color: #848789;
+}
+
+.motto::before {
+	content: "";
+	position: absolute;
+	top: 28%;
+    left: 42%;
+	width: 95px;
+	height: 95px;
+
+	background-image: url("../img/logo.png");
+	background-repeat: no-repeat;
+}
+
+.mailing form {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 110px;
+}
+
+.mailing input[type="text"] {
+	width: 100%;
+	padding: 27px 0 21px 27px;
+	margin-right: 10px;
+
+	font-size: 20px;
+	line-height: 24px;
+	color: rgb(211, 215, 217);/**/
+	border: none;
+	box-shadow: 0px 0px 0px 1px rgb(211, 215, 217);
+}
+
+.mailing input[type="submit"] {
+	padding: 25px 43px;
+	border: none;
+	background-color: rgb(100, 194, 158) ;
+	color: #ffffff;
+	font-size: 24px;
+	line-height: 24px;
+}
+
+.main-footer {
+	display: flex;
+	flex-direction: row;
+	background-color: rgb(247, 247, 247);
+}
+
+.contacts {
+	max-width: 12%;
+	padding: 5% 3% 5% 22%;
+	text-align: left;
+	color: #848789;
+}
+
+.contacts p {
+	margin: 0;
+}
+
+.contacts-title {
+	font-size: 16px;
+	line-height: 17.87px;
+}
+
+.contacts-text {
+	font-size: 13.9px;
+	line-height: 17.87px;
+}
+
+.socials {
+	padding: 5% 9%;
+}
+
+.socials-list {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.socials-list li {
+	margin-right: 7px;
+}
+
+.social-btn {
+	border-radius: 50%;
+}
+
+.twitter-btn {
+	padding: 8px 9px;
+	background-color: rgb(120, 205, 240);
+}
+
+.fb-btn {
+	padding: 8px 14px;
+	background-color: rgb(83, 123, 189);
+}
+
+.copyright {
+	padding: 6% 10% 6% 8%;
+	font-size: 13.9px;
+	line-height: 17.87px;
+	color: #848789;
+}
+
+.credits {
+	position: relative;
+}
+
+.credits::after {
+	content: "";
+	position: absolute;
+	top: -9px;
+    right: -68px;
+	width: 55px;
+	height: 36px;
+	background: url("../img/Y E B O Logo.png") no-repeat;
 }
