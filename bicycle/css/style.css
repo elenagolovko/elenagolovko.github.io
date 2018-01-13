@@ -296,12 +296,13 @@ body {
 .main-footer {
 	display: flex;
 	flex-direction: row;
+	padding: 5% 0;
 	background-color: rgb(247, 247, 247);
 }
 
 .contacts {
 	max-width: 12%;
-	margin: 5% 3% 5% 22%;
+	margin: 0 3% 0 22%;
 	text-align: left;
 	color: #848789;
 }
@@ -321,7 +322,7 @@ body {
 }
 
 .socials {
-	margin: 5% 9%;
+	margin: 0 9%;
 }
 
 .socials-list {
@@ -353,7 +354,7 @@ body {
 }
 
 .copyright {
-	margin: 6% 10% 6% 8%;
+	margin: 0 10% 0 8%;
 	font-size: 13.9px;
 	line-height: 17.87px;
 	color: #848789;
