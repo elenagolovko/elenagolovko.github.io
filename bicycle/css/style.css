@@ -301,7 +301,7 @@ body {
 
 .contacts {
 	max-width: 12%;
-	padding: 5% 3% 5% 22%;
+	margin: 5% 3% 5% 22%;
 	text-align: left;
 	color: #848789;
 }
@@ -321,7 +321,7 @@ body {
 }
 
 .socials {
-	padding: 5% 9%;
+	margin: 5% 9%;
 }
 
 .socials-list {
@@ -353,7 +353,7 @@ body {
 }
 
 .copyright {
-	padding: 6% 10% 6% 8%;
+	margin: 6% 10% 6% 8%;
 	font-size: 13.9px;
 	line-height: 17.87px;
 	color: #848789;
