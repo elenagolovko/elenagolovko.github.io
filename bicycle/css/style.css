@@ -373,3 +373,20 @@ body {
 	height: 36px;
 	background: url("../img/Y E B O Logo.png") no-repeat;
 }
+
+.up-button {
+    position: fixed;
+    display: none;
+    top: 96%;
+    left: 94%;
+    width: 60px;
+    height: 32px;
+    border-radius: 20%;
+    background-color: #9ea0a1;
+    color: #000;
+}
+
+.up-button:hover {
+	cursor: pointer;
+	background-color:#848789;
+}
